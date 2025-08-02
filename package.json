@@ -6,6 +6,12 @@
     "markdown-it",
     "markdown-it-enhancer"
   ],
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
   "author": {
     "name": "Par9uet",
     "email": "qq1607611087@gmail.com"
